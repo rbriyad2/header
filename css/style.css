@@ -1,0 +1,75 @@
+:root{
+    --poppins : 'Poppins', sans-serif;
+    --roboto  : 'Roboto', sans-serif;
+    --black   : #1a1f24;
+    --green   : #87c500;
+}
+
+
+* {
+    padding : 0;
+    margin  : 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    line-height: 0.8;
+}
+
+body {
+    overflow-x: hidden;
+}
+/* ===========================================
+                common css end
+==============================================*/
+
+/* ===========================================
+                header part Start
+==============================================*/
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+
+}
+.navbar-expand-lg .navbar-nav {
+    gap: 25px;
+}
+.cv-btn{
+    margin-left: 25px;
+}
+.nav-item a{
+    font-size: 18px;
+    font-family: var(--poppins);
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.nav-link:focus, .nav-link:hover {
+	color: var(--green);
+}
+/* ===========================================
+                header part end
+==============================================*/
+
+
